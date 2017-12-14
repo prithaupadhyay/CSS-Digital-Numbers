@@ -1,0 +1,332 @@
+body{
+	background-color: #FF9999;
+	padding-top: 150px;
+	padding-left: 600px;
+}
+
+
+.top{  
+  background-color: #000066;;
+  width: 100px;
+  height: 10px;
+  animation-name: section-up;
+  animation-duration: 10s;
+  animation-iteration-count: 20;
+}
+
+.top-left{
+	background-color: #000066;;
+	width: 10px;
+	height: 100px;
+	display: inline-block;
+	animation-name: section-up-lef;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+}
+
+.top-right{
+	background-color: #000066;;
+	width: 10px;
+	height: 100px;
+	margin-left: 76.5px;
+	display: inline-block;
+	animation-name: section-up-righ;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+}
+
+.center{
+	background-color: #000066;;
+	width: 100px;
+	height: 10px;
+	animation-name: section-mid;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+
+}
+
+.bottom-left{
+	background-color: #000066;;
+	width: 10px;
+	height: 100px;
+	display: inline-block;
+	animation-name: section-botto-lef;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+}
+
+.bottom-right{
+	background-color: #000066;;
+	width: 10px;
+	height: 100px;
+	margin-left: 76.5px;
+	display: inline-block;
+	animation-name: section-botto-righ;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+}
+
+.bottom{
+	background-color: #000066;;
+	width: 100px;
+	height: 10px;
+	animation-name: section-botto;
+    animation-duration: 10s;
+    animation-iteration-count: 20;
+}
+/*0 opacity means full visible*/
+@keyframes section-up{
+ 0% {
+ 	opacity:100;
+ }
+ 10% {
+ 	opacity:0;
+ }
+ 20% {
+ 	opacity:100;
+ }
+ 30% {
+ 	opacity:100;
+  }
+ 40% {
+    opacity:0;
+  }
+  50% {
+    opacity:100;
+  }
+  60% {
+    display:100;
+  }
+  70% {
+    opacity:100;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:100;
+  }
+}
+
+@keyframes section-up-lef{
+	0% {
+    opacity:100;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:0;
+  }
+  30% {
+    opacity:0;
+  }
+  40% {
+    opacity:100;
+  }
+  50% {
+    opacity:100;
+  }
+  60% {
+    opacity:100;
+  }
+  70% {
+    opacity:0;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:100;
+  }
+}
+
+/*0 opacity means full visible*/
+@keyframes section-up-righ{
+	 0% {
+    opacity:100;
+  }
+  10% {
+    opacity:100;
+  }
+  20% {
+    opacity:100;
+  }
+  30% {
+    opacity:100;
+  }
+  40% {
+    opacity:100;
+  }
+  50% {
+    opacity:0;
+  }
+  60% {
+    opacity:0;
+  }
+  70% {
+    opacity:100;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:100;
+  }
+}
+
+@keyframes section-mid{
+0% {
+    opacity:0;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:100;
+  }
+  30% {
+    opacity:100;
+  }
+  40% {
+    opacity:100;
+  }
+  50% {
+    opacity:100;
+  }
+  60% {
+    opacity:100;
+  }
+  70% {
+    opacity:0;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+/*0 opacity means full visible*/
+@keyframes section-botto-lef{
+	 0% {
+    opacity:100;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:100;
+  }
+  30% {
+    opacity:0;
+  }
+  40% {
+    opacity:0;
+  }
+  50% {
+    opacity:0;
+  }
+  60% {
+    opacity:100;
+  }
+  70% {
+    opacity:0;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:100;
+  }
+}
+
+@keyframes section-botto-righ{
+	0% {
+    opacity:100;
+  }
+  10% {
+    opacity:100;
+  }
+  20% {
+    opacity:0;
+  }
+  30% {
+    opacity:100;
+  }
+  40% {
+    opacity:100;
+  }
+  50% {
+    opacity:100;
+  }
+  60% {
+    opacity:100;
+  }
+  70% {
+    opacity:100;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:100;
+  }
+}
+
+/*0 opacity means full visible*/
+@keyframes section-botto{
+0% {
+    opacity:100;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:100;
+  }
+  30% {
+    opacity:100;
+  }
+  40% {
+    opacity:0;
+  }
+  50% {
+    opacity:100;
+  }
+  60% {
+    opacity:100;
+  }
+  70% {
+    opacity:0;
+  }
+  80% {
+    opacity:100;
+  }
+  90% {
+    opacity:100;
+  }
+  100% {
+    opacity:100;
+  }
+}
