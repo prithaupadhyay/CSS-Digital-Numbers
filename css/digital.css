@@ -6,7 +6,7 @@ body{
 
 
 .top{  
-  background-color: #000066;;
+  background-color: #000066;
   width: 100px;
   height: 10px;
   animation-name: section-up;
@@ -15,62 +15,62 @@ body{
 }
 
 .top-left{
-	background-color: #000066;;
-	width: 10px;
-	height: 100px;
-	display: inline-block;
-	animation-name: section-up-lef;
+    background-color: #000066;
+    width: 10px;
+    height: 100px;
+    display: inline-block;
+    animation-name: section-up-lef;
     animation-duration: 10s;
     animation-iteration-count: 20;
 }
 
 .top-right{
-	background-color: #000066;;
-	width: 10px;
-	height: 100px;
-	margin-left: 76.5px;
-	display: inline-block;
-	animation-name: section-up-righ;
+    background-color: #000066;;
+    width: 10px;
+    height: 100px;
+    margin-left: 76.5px;
+    display: inline-block;
+    animation-name: section-up-righ;
     animation-duration: 10s;
     animation-iteration-count: 20;
 }
 
 .center{
-	background-color: #000066;;
-	width: 100px;
-	height: 10px;
-	animation-name: section-mid;
+    background-color: #000066;;
+    width: 100px;
+    height: 10px;
+    animation-name: section-mid;
     animation-duration: 10s;
     animation-iteration-count: 20;
 
 }
 
 .bottom-left{
-	background-color: #000066;;
-	width: 10px;
-	height: 100px;
-	display: inline-block;
-	animation-name: section-botto-lef;
+    background-color: #000066;
+    width: 10px;
+    height: 100px;
+    display: inline-block;
+    animation-name: section-botto-lef;
     animation-duration: 10s;
     animation-iteration-count: 20;
 }
 
 .bottom-right{
-	background-color: #000066;;
-	width: 10px;
-	height: 100px;
-	margin-left: 76.5px;
-	display: inline-block;
-	animation-name: section-botto-righ;
+    background-color: #000066;;
+    width: 10px;
+    height: 100px;
+    margin-left: 76.5px;
+    display: inline-block;
+    animation-name: section-botto-righ;
     animation-duration: 10s;
     animation-iteration-count: 20;
 }
 
 .bottom{
-	background-color: #000066;;
-	width: 100px;
-	height: 10px;
-	animation-name: section-botto;
+    background-color: #000066;;
+    width: 100px;
+    height: 10px;
+    animation-name: section-botto;
     animation-duration: 10s;
     animation-iteration-count: 20;
 }
